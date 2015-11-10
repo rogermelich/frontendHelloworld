@@ -11,6 +11,6 @@
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/bundle.js"></script>
     </body>
 </html>
