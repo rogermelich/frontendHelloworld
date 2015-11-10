@@ -13,7 +13,7 @@ gulp.task('js', function(){
         .pipe(gulp.dest('./'));
 });
 
-gulp.task('watch', function(){
-    gulp.watch('public/js/**/*.js')
-});
+gulp.task('watch', function() {
+    gulp.watch('public/js/**/*.js', ['js']);
+}
 
