@@ -4,6 +4,6 @@
 //$("#hello").html('helloworld');
 //alert("Helloworld2");
 
-var hello = require('./hello');
+var hello = require('./bundle')
 
 hello();
